@@ -1,0 +1,46 @@
+{
+  "name": "baolu-webapp",
+  "version": "1.0.0",
+  "description": "baolu-webapp",
+  "author": "zxk",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "axios": "^0.19.2",
+    "babel-loader": "^8.1.0",
+    "echarts": "^4.2.1",
+    "element-ui": "^2.13.2",
+    "iview": "^3.1.5",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
+    "nuxt": "^2.0.0",
+    "sortable": "^2.0.0",
+    "sortablejs": "^1.10.2",
+    "vcolorpicker": "^0.1.8",
+    "view-design": "^4.2.0",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.9.1",
+    "vue-no-ssr": "^1.1.1",
+    "vue-router": "^3.0.1",
+    "vue-video-player": "^5.0.2",
+    "vuedraggable": "^2.23.2"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.6.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "node-sass": "^4.14.1",
+    "prettier": "^1.19.1",
+    "sass-loader": "^8.0.2",
+    "scss": "^0.2.4",
+    "scss-loader": "0.0.1"
+  }
+}
