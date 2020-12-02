@@ -320,6 +320,9 @@ export default {
       }
     }
   },
+  created() {
+    this.$route.query.allowEdit = 'true';
+  },
   mounted() {
     if (this.$route.query.homeset == 'true') {
       this.activeid = 0
