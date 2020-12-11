@@ -3,7 +3,7 @@ import Vue from 'vue';
 
 // let options = {}
 // if (process.server) {
-//   options.baseURL = 'http://192.168.40.188:8082'
+//   options.baseURL = ''
 // }
 //
 // let http = axios.create(options)

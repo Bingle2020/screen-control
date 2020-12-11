@@ -180,7 +180,7 @@
                 type="drag"
                 :before-upload="handleBeforeUpload"
                 :on-success="handleSuccess"
-                action="http://192.168.40.12:8089/Elevator/Module/UploadImg"
+                action="http://xxxxxxxxxxxxx:8089/Elevator/Module/UploadImg"
               >
                 <div style="width: 100%;height: 80px;padding: 10px 0;box-sizing: border-box">
                   <Icon type="ios-cloud-upload" size="32" style="color: #3399ff"></Icon>

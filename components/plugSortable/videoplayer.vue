@@ -22,7 +22,7 @@
     <div id="videos" style="width:98%;">
       <input type="hidden" id="hdSelectedCamera" />
       <input type="hidden" id="hdSelectedCameraNum" />
-      <input type="hidden" id="iframeUrl" val="http://192.168.40.112:8080/ShowVideo.html" />
+      <input type="hidden" id="iframeUrl" val="http://xxx.xxx.xx.xxx:8080/ShowVideo.html" />
       <input type="hidden" id="hdSaveKeyId" />
       <iframe
         id="playVideos"
@@ -80,7 +80,7 @@ export default {
         var msg =
           'play|0|a16e4f64-f560-4c9b-8054-d0b459bd0d85|1719fe0c-ce67-4c96-8fdb-867da4c9eae1'
         this.url =
-          'http://192.168.40.112:8080/ShowVideo.html?showModel=1&siteUrl=' +
+          'http://xxx.xxx.xx.xxx:8080/ShowVideo.html?showModel=1&siteUrl=' +
           window.location.href +
           '&height=100'
         var origin = event.origin || event.originalEvent.origin
@@ -100,13 +100,13 @@ export default {
       var msg =
         'play|0|a16e4f64-f560-4c9b-8054-d0b459bd0d85|1719fe0c-ce67-4c96-8fdb-867da4c9eae1'
       // var ifr = document.getElementById('playVideos')
-      // this.url='http://192.168.40.112:8080/ShowVideo.html?showModel=1&siteUrl=' +window.location.href +'&height=100'
+      // this.url='http://xxx.xxx.xx.xxx:8080/ShowVideo.html?showModel=1&siteUrl=' +window.location.href +'&height=100'
       // top.postMessage(msg, this.url)
     },
     IframeInitialize() {
-      $('#iframeUrl').val('http://192.168.40.112:8080/ShowVideo.html')
+      $('#iframeUrl').val('http://xxx.xxx.xx.xxx:8080/ShowVideo.html')
       var url =
-        'http://192.168.40.112:8080/ShowVideo.html?showModel=1&siteUrl=' +
+        'http://xxx.xxx.xx.xxx:8080/ShowVideo.html?showModel=1&siteUrl=' +
         window.location.href +
         '&height=' +
         $('#playVideos').height()
@@ -115,7 +115,7 @@ export default {
     getItemName() {
       console.log(this.formSend.deviceId)
       //  var msg = 'play|0|a16e4f64-f560-4c9b-8054-d0b459bd0d85|1719fe0c-ce67-4c96-8fdb-867da4c9eae1'
-      // this.url='http://192.168.40.112:8080/ShowVideo.html?showModel=1&siteUrl=' +window.location.href +'&height=100'
+      // this.url='http://xxx.xxx.xx.xxx:8080/ShowVideo.html?showModel=1&siteUrl=' +window.location.href +'&height=100'
       // parent.postMessage(msg, this.url)
       //   this.deviceId = this.formSend.deviceId
     }

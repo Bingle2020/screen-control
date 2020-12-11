@@ -87,7 +87,7 @@ export default {
       timer: null,
       turnTimeList: [10, 5, 3, 0],
       deviceList: [],
-      url: 'http://192.168.40.112:8080/MobileVideo.html?id=',
+      url: 'http://xxx.xxx.xxx.xxx:8080/MobileVideo.html?id=',
       deviceId: '4f957f15-63e4-4119-9332-83c8b7701fb7',
       stamp: null,
       interval: null

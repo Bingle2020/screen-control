@@ -66,6 +66,6 @@ export default {
     },
 
     proxy: [
-        ['/api', { target: 'http://192.168.40.188:8082' }],
+        ['/api', { target: 'http://xxx.xxx.xx.xxx:8082' }],
     ]
 }

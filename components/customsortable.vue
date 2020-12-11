@@ -34,35 +34,35 @@ export default {
       activeId: null,
       tagTableLeft: [
         {
-          name: '楼栋出入统计',
+          name: 'name1',
           id: 1
         },
         {
-          name: '门禁设备状态',
+          name: 'name2',
           id: 2
         },
         {
-          name: '视频监控设备状态统计',
+          name: 'name3',
           id: 3
         },
         {
-          name: '授权卡类型统计',
+          name: 'name4',
           id: 4
         },
         {
-          name: '梯控设备状态统计',
+          name: 'name5',
           id: 5
         },
          {
-          name: '电梯外招统计',
+          name: 'name6',
           id: 6
         },
         {
-          name: '刷卡开门统计',
+          name: 'name7',
           id: 7
         },
         {
-          name: '视频监控',
+          name: 'name8',
           id: 8
         },
       ]

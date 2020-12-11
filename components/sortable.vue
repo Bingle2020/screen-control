@@ -123,56 +123,37 @@ export default {
       pad: 15,
       DoorMenuList: [
         {
-          // name: '楼栋出入统计',
           name: '漏斗图',
           id: 1
         },
         {
-          // name: '门禁设备状态',
           name: '多环直达图',
           id: 2
         },
         {
-          // name: '授权卡类型统计',
           name: '交错正负轴图',
           id: 4
-        },
-        // {
-        //   name: '刷卡开门统计',
-        //   id: 7
-        // }
+        }
       ],
       eleMenuList: [
         {
-          // name: '梯控设备状态',
           name: '山峰插标图',
           id: 5
         },
         {
-          // name: '电梯外招统计',
           name: '阶梯瀑布图',
           id: 6
         },
         {
-          // name: '刷卡开门统计',
           name: '速度标盘',
           id: 7
         }
       ],
       VdeoMenuList: [
         {
-          // name: '视频监控状态统计',
           name: '极坐标双数值轴',
           id: 3
-        },
-        // {
-        //   name: '视频监控',
-        //   id: 8
-        // },
-        // {
-        //   name: '公告',
-        //   id: 9
-        // }
+        }
       ]
     }
   },
